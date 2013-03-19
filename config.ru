@@ -1,2 +1,2 @@
-require './my_amazing_web_app'
+require './dostoros'
 run Sinatra::Application
