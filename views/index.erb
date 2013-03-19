@@ -7,7 +7,14 @@
   </head>
 
   <body>
-    <p>NO</p>
+    <% t = Time.new %>
+    <% if t.wday == 2 %>
+      <p>NO</p>
+    <% else %>
+      <p>It's not tuesday yet...</p>
+    <% end %>
   </body>
+
+
 
 </html>
